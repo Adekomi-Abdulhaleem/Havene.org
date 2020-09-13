@@ -1,0 +1,479 @@
+body {padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+header .mobile {height: 70px;
+                display: flex;
+                justify-content: space-between;
+}
+header .mobile .part {margin-top: 10px;
+}   
+header .mobile .part_one img {height: 50px;
+                              width: 100px;
+}
+header .mobile .part_two button {background-color: unset;
+                                 border: none;
+                                 color: #FFB800;
+                                 font-size: 30px;
+                                 margin: 7px;
+}
+header nav {width: 100%;
+            height: 100%;
+            background-color: #FFB800;
+            color: white;
+            /* display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; */
+            display: none;
+}
+header nav #cancelButton {font-size: 36px;
+}
+nav ul li {list-style: none;
+           font-size: 36px;
+           text-align: center;
+           /* line-height: 120px; */
+           margin-top: 20px;
+}   
+nav ul li select {border: none;
+                  background-color: unset;
+                  color: white;
+}
+nav ul li button {width: 130px;
+                  height: 45px;
+                  border-radius: 50px;
+                  font-size: 16px;
+}
+nav ul li:nth-child(4) button {background-color: white;
+                               border: none;
+                               color: #FFB800;
+                               outline: none;
+}
+nav ul li:nth-child(5) button {background-color: #FFB800;
+                               border: 1px solid white;
+                               color: white;
+                               outline: none;
+}
+.section-one {background: url(../Havene.org/Media/00cc9ffb-9d7d-469e-9580-1528e3a9bac9.png);
+              background-position: center;
+              background-repeat: repeat;
+              background-size: cover;
+              background-attachment: fixed;
+              height: 400px;
+}
+.section-one .content {display: flex;
+                       flex-direction: column;
+                       align-items: center;
+                       justify-content: center;
+                       padding-top: 50px;
+}
+.section-one .content h1 {font-size: 22px;
+                          color: white;
+                          text-align: center;
+}
+.section-one .content h1 span {font-size: 36px;
+                               font-weight: bold;
+                               /* background: -webkit-linear-gradient(-30deg, #FFB800, #333, #e2cf9d, #e2cf9d, #FFB800);
+                               -webkit-background-clip: text;
+                               -webkit-text-fill-color: transparent; */
+} 
+.section-one .content p {font-size: 16px;
+                         color: white;
+}
+.section-one .content button {width: 300px;
+                              height: 42px;
+                              border-radius: 50px;
+                              background-color: unset;
+                              outline: none;
+} 
+.section-one .content button input {border: none;
+                                    font-size: 12px;
+                                    width: 120px;
+                                    background-color: unset;
+                                    color: white;
+                                    outline: none;
+}
+.section-one .content button select {border: none;
+                                     background-color: unset;
+                                     color: white;
+                                     outline: none;
+}
+.section-one .content button:active, .section-one .content button:focus {border: 1.5px solid #FFB800;
+}
+.section-two h1 {font-size: 24px;
+                 text-align: center;
+                 margin: 10px;
+}
+.section-two .caves .cavesHeader {margin: 20px;
+}
+.section-two .caves button img {height: 12px;
+                                width: 12px;
+}
+.section-two .caves .cavesHeader img#clickButton {height:17px;
+                                                  width:17px;
+}
+.section-two .caves .parts {display: flex;
+                            width: 100%;
+                            overflow: auto;
+}
+.section-two .caves .parts img {height: 150px;
+                                width: 130px;
+}
+.section-two .caves .parts .part {margin: 10px;
+                                  margin-top: 0;
+}
+.section-two .caves .part p {font-size: 10px;
+}
+.section-two .caves .part p span {color: #FFB800;
+                                font-size: 14px;
+}
+.section-two .caves button {width: 90px;
+                            height: 27px;
+                            font-size: 11px;
+                            border-radius: 5px;
+                            background-color: unset;
+                            border: 1px solid #FFB800;
+                            outline: none;
+                            color: #FFB800;
+}
+.section-two .caves .part .stars {margin-top: -15px;
+                                  text-align: center;
+}
+.checked {color: #FFB800;
+}
+.section-two .caves .part .subPart {display: flex;
+                                    margin-left: -35px;
+}
+.section-two .caves .part .subPart ul li {list-style: none;
+                                          font-size: 8px;
+}
+.section-two .caves .part .subPart ul:nth-child(1) li:nth-child(1)  {font-size: 14px;
+                                                                     color: #FFB800;
+}
+.section-two .caves .part .subPart ul:nth-child(1) li:nth-child(2),
+.section-two .caves .part .subPart ul:nth-child(2) li:nth-child(1)
+{font-size: 9px;                                                                                                                                        color: #777;
+}
+.section-two .caves .part .subPart ul:nth-child(2) {margin-top: 7px;
+}
+.section-two .caves .part .subPart ul:nth-child(2) li i {color: red;
+}
+.section-two .Tellycaves .part h6 {font-size: 12px;
+                                   text-align: center;
+                                   color: #FFB800;
+}
+.section-two .Tellycaves .part p {color: #777;
+                                  text-align: center;
+                                  margin-top: -7px;
+}
+.section-two .Tellycaves .parts .part .subPart ul {display: flex;
+                                                   margin-top: -20px;
+                                                   justify-content: space-between;           
+}
+.section-two .Tellycaves .parts .part .subPart ul li:nth-child(1) {color: #777;
+                                                                   font-size: 12px;
+}
+.section-two .Tellycaves .parts .part .subPart ul li:nth-child(2) {color: #777;
+                                                                   padding: 6px;
+}
+
+.section-three h2:hover {padding: 5px 5px;
+                         color: #FFB800;
+                         transition: .5s;
+}
+.section-three .parts {display: flex;
+}
+.section-three .parts img {height: 250px;
+                           width: 200px;
+}
+.section-three .parts p {font-size: 12px;
+}
+.section-three .parts button {width: 60px;
+                              height: 20px;
+                              background-color: unset;
+                              border: 1px solid #FFB800;
+                              color: #FFB800;
+                              border-radius: 5px;
+                              margin-top: 5px;
+                              font-size: 8px;
+                              z-index: 1000;
+}
+.section-three span .menus {background-color: #FFB800;
+                           height: 4px;
+                           border-radius: 5px;
+                           margin: 3px;
+}
+.section-three span .first-menu {width: 50px;
+}
+.section-three span .second-menu {width: 30px;
+}
+.section-three span .third-menu {width: 10px;
+}
+.section-four {display: flex;
+               flex-wrap: wrap;
+}
+.section-four .part {flex: 1;
+}
+.section-four .part ol {display: grid;
+                        grid-template-columns: 1fr 1fr 1fr;
+                        grid-gap: 1.5em;
+                        font-size: 12px;
+                        font-family: cursive;
+}
+.section-five h2 {text-align: center;
+}
+.section-five .part_header p {height: fit-content;
+                              width: fit-content;
+                              background-color: #c2c2c2;
+                              border-left: 3px solid #FFB800;
+                              font-size: 12px;
+                              display: flex;
+                              padding: 5px;
+                              justify-content: center;
+                              align-items: center;
+                              border-radius: 3px;
+}
+.section-five .part {display: flex;
+                     flex-wrap: wrap;
+} 
+.section-five .part .numbers {display: block;
+                              margin: 5px;
+} 
+.section-five .part .numbers img {height: 120px;
+                                  width: 100px;
+}
+.section-five .part .numbers h3 {font-size: 12px;
+}
+.section-five .part .numbers span .menu {background-color: #777;
+                                         height: 3px;
+                                         border-radius: 5px;
+                                         margin: 1px;
+}
+.section-five .part .numbers span .first-menu {width: 30px;
+}
+.section-five .part .numbers span .second-menu {width: 20px;
+}
+.section-five .part .numbers span .third-menu {width: 7px;
+}
+
+/* sixth section */
+.section-six {display: flex;
+              flex-wrap: wrap;
+              margin-top: 40px;
+}
+.section-six .streams {margin: 0;
+}
+.section-six .streams img {height: 220px;
+                           width: 100%;
+}
+.section-six .streams .content {margin-top: 10px;
+                                display: flex;
+}
+.section-six .streams .content .part-one img {height: 40px;
+                                              width: 40px;
+                                              border-radius: 50%;
+}
+.section-six .streams .content .part-one
+.section-six .streams .content .part-three {flex: 1;
+}
+.section-six .streams .content .part-two {flex: 3;
+                                          margin-left: -20px;
+}
+.section-six .streams .content .part-two li {line-height: 18px;
+                                             list-style: none;
+}
+.section-six .streams .content .part-two li:nth-child(1) {font-weight: bold;
+} 
+.section-six .streams .content .part-two li:nth-child(2), 
+.section-six .streams .content .part-two li:nth-child(3) {font-size: 12px;
+                                                          color: #777;
+}
+.forgotten-section-six-header {text-align: center;
+                               font-size: 30px;
+                               margin-top: 20px;
+}
+.section-seven h5 {text-align: center;
+                   font-size: 20px;
+                   margin: 20px;
+                   color: #FFB800;
+                   font-weight: bold;
+                   text-shadow: 3px 3px 10px #777;
+}
+.section-seven div {display: flex;
+                    justify-content: space-around;
+}
+.section-seven div button {border: 1px solid #FFB800;
+                           background-color: unset;
+                           color: #FFB800;
+                           border-radius: 5px;
+                           outline: none;
+                           transition: .5s;
+}
+.section-seven div button:hover {background-color: #FFB800;
+                                 color: white;
+                                 box-shadow: 3px 3px 3px #777;
+}
+
+@media (min-width: 925px) {
+    .first {display: flex;
+    }
+    header .mobile {height: 100px;
+    }
+    header .mobile .part_two {display: none;
+    }   
+    header .mobile .part_one img {height: 100px;
+                                  width: 200px;
+    }
+    header nav {display: flex;
+                flex-direction: row;
+                background-color: unset;
+                width: unset;
+                height: unset;
+                color: black;
+    }
+    header nav ul {display: flex;
+    }
+    nav ul li {font-size: 24px;
+                margin: 35px 15px;
+    }
+    header nav #cancelButton {display: none;
+    }
+    nav ul li:nth-child(4) button {border: 1.5px solid #FFB800;
+    }
+    .section-one {height: 70vh;
+    }
+    .section-one .content {padding-top: 150px;
+    }
+    .section-one .content h1 {font-size: 48px;
+    }
+    .section-one .content h1 span {font-size: 64px;
+                                   letter-spacing: 2px;
+                                   font-family: cursive;
+    }
+    .section-one .content p {font-size: 30px;
+    }
+    .section-one .content button {width: 650px;
+                                  height: 65px;
+    }
+    .section-one .content button input {width: 350px;
+                                        font-size: 18px;
+    }
+    .section-two h1 {font-size: 42px;
+    }
+    .section-two .caves button img {width: 24px;
+                                    height: 24px;
+    }
+    .section-two .caves .cavesHeader button {width: 140px;
+                                             height: 40px;
+                                             font-size: 18px;
+    }
+    .section-two .caves .cavesHeader img#clickButton {width: 28px;
+                                                      height: 28px;
+    }
+    .section-two .caves .cavesHeader img span {font-size: 48px;
+    }
+    .section-two .caves .parts img {height: 300px;
+                                    width: 250px;
+    }
+    .section-two .caves .part p {font-size: 18px;
+    }
+    .section-two .caves .part p span {font-size: 28px;
+                                      margin-right: 5px;
+    }
+    .section-two .caves .part p sup {margin-right: 5px;
+    }
+    .section-two .caves .part .stars {font-size: 20px;
+    }
+    .section-two .caves .part .subPart ul li {font-size: 18px;
+    }.section-two .caves .part .subPart ul:nth-child(1) li:nth-child(1)  {font-size: 28px;
+    }
+    .section-two .caves .part .subPart ul:nth-child(1) li:nth-child(2),
+    .section-two .caves .part .subPart ul:nth-child(2) li:nth-child(1)
+    {font-size: 18px;                                                                                                                                        color: #777;
+    }
+    .section-two .caves .part .subPart ul:nth-child(2) {line-height: 32px;
+                                                        margin-left: 20px;
+    }
+    .section-two .Tellycaves .part h6 {font-size: 22px;
+    }
+    .section-two .Tellycaves .parts .part .subPart ul li:nth-child(1) {font-size: 18px;
+    }
+    
+    .section-two .Tellycaves .parts .part .subPart ul li:nth-child(2) {padding: 2px 30px;
+                                                                       font-size: 18px;
+    }
+    .section-three .parts img {height: auto;
+                               width: auto;
+    }
+    .section-three .part {flex: 1;
+    }
+    .section-three .parts p {font-size: 28px;
+    }
+    .section-three .parts button {width: 120px;
+                                  height: 40px;
+                                  font-size: 16px;
+                                  border-radius: 10px;
+    }
+    .section-three .parts .part-two {display: flex;
+                                     justify-content: center;
+                                     align-items: center;
+    }
+    .section-three span .menus {height: 6px;
+                                margin: 5px;
+    }
+    .section-three span .first-menu {width: 100px;
+    }
+    .section-three span .second-menu {width: 70px;
+    }
+    .section-three span .third-menu {width: 40px;
+    }
+    .section-five .part .numbers {margin: 20px;
+    }
+    .section-five .part .numbers img {height: 300px;
+                                      width: 230px;
+    } 
+    .section-five .part .numbers h3 {font-size: 24px;
+    }
+    .section-five .part .numbers span .menu {height: 4px;
+                                             margin-bottom: 3px;
+    }
+    .section-five .part .numbers span .first-menu {width: 60px;
+    }
+    .section-five .part .numbers span .second-menu {width: 40px;
+    }
+    .section-five .part .numbers span .third-menu {width: 15px;
+    }
+    .section-five .part_header p {border-left: 5px solid #FFB800;
+                                  font-size: 20px;
+                                  padding: 10px;
+                                  border-radius: 5px;
+    }
+    .section-six .streams {width: 220px;
+    }
+    .section-six .streams img {height: 250px;
+                               width: 200px;
+                               margin: 20px;
+    }
+    .section-six .streams .content .part-one img {height: 30px;
+                                                  width: 30px;
+                                                  position: relative;
+                                                  bottom: 20px;
+    }
+    .section-six .streams .content {margin-top: -10px;
+    }
+    .section-six .streams .content .part-two {margin-left: -50px;
+    }
+    .section-six .streams .content .part-two li:nth-child(1) {font-size: 12px;
+    }
+    .section-six .streams .content .part-two li:nth-child(2),
+    .section-six .streams .content .part-two li:nth-child(3) {font-size: 9px;
+                                                              line-height: 13px;
+    }
+    .forgotten-section-six-header {font-size: 48px;
+    }
+    .section-seven h5 {font-size: 36px;
+    }
+    .section-seven div button {font-size: 22px;
+                               padding: 5px 10px;
+    }
+}
